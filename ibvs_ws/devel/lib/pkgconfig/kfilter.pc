@@ -1,0 +1,8 @@
+prefix=/home/harry/ibvs_ws/devel
+
+Name: kfilter
+Description: Description of kfilter
+Version: 0.0.0
+Cflags: -I/home/harry/ibvs_ws/src/kfilter/src/kalman
+Libs: -L${prefix}/lib -lkfilter
+Requires: 

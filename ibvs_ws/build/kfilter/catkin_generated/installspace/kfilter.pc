@@ -1,0 +1,8 @@
+prefix=/home/harry/ibvs_ws/install
+
+Name: kfilter
+Description: Description of kfilter
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lkfilter
+Requires: 

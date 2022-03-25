@@ -1,0 +1,4 @@
+std_msgs/Float64 x_obj
+std_msgs/Float64 x_scene
+std_msgs/Float64 y_obj
+std_msgs/Float64 y_scene

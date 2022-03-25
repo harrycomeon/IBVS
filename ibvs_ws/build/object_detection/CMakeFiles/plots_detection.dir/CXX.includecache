@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/harry/ibvs_ws/src/object_detection/include/gnuplot_ci.h
+cstdio
+-
+cstdlib
+-
+cstring
+-
+unistd.h
+-
+csignal
+-
+cmath
+-
+cstring
+-
+
+/home/harry/ibvs_ws/src/object_detection/src/gnuplot_ci.cpp
+iostream
+-
+fstream
+-
+cstdio
+-
+gnuplot_ci.h
+-
+
+/home/harry/ibvs_ws/src/object_detection/src/plots.cpp
+iostream
+-
+gnuplot_ci.h
+-
+stdlib.h
+-
+

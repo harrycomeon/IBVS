@@ -1,0 +1,8 @@
+prefix=/home/harry/ibvs_ws/devel
+
+Name: ur5_vs
+Description: Description of ur5_vs
+Version: 0.0.0
+Cflags: -I/home/harry/ibvs_ws/devel/include -I/home/harry/ibvs_ws/src/ur5_vs/include
+Libs: -L${prefix}/lib -lur5_ik
+Requires: roscpp rospy std_msgs message_runtime geometry_msgs visualization_msgs message_runtime
